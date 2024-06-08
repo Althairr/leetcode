@@ -1,2 +1,2 @@
-## Hello! i am I Kadek Rio Arta Putra from Indonesia!
-English may not my first language but i will do my best to document my code in english because i liked it that way.
+## Hello! I am I Kadek Rio Arta Putra from Indonesia!
+English may not be my first language, but I will do my best to document my code in English because I like it that way.
