@@ -30,7 +30,7 @@ class Solution(object):
 ```
 
 ## Analysis
-- First, i use a variable called `n` to track the length of the input (lists) given by user. Later that variable can be used to limit the range that can we use in loop.
+- First, i use a variable `n` to track the length of the input (lists) given by user. Later that variable can be used to limit the range that can we use in loop.
 - Then, we find the two number who adds up to the `target` by iterate in the lists with variable `i` and `j`. Which variable `i` will track the first number in the array lists and `j` will track the next number in the array lists.
 - `for j in range (i+1, n):` will find `j` when `j` is `i + 1` and the limit cant be over variable `n`.
 - Lastly, we access the number in array list with `nums[i]` to get the right number in the i-th array. Works the same for `j`.
