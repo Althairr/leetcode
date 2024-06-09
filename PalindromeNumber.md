@@ -34,6 +34,6 @@ class Solution(object):
  ## Analysis & Explanation
  - First, i use `x_lists` as a variable to convert the input into a string. This string later will be viewed as lists.
  - Then, i use `n` as a variable to track the length of the user input or can be interpreted as the length of the variable `x_lists`. This variable later will be used for optimize the loop.
- - `for i in range(n // 2)` make my loop do less work. Let's say that the input has length of 3. Later the loop will divide the length (`n`) by 2 so that it will ignore the middle number. Because of that, `i` will has a value range of 0 and 1 (because 3 divided by 2 will output 1,5 and will be rounded to its floor).
+ - `for i in range(n // 2)` make my loop do less work (work more efficient). Let's say that the input has length of 3. Later the loop will divide the length (`n`) by 2 so that it will ignore the middle number. Because of that, `i` will has a value range of 0 until i < 1 (because 3 divided by 2 will output 1,5 and will be rounded to its floor). So the range only `i = 0`.
  - (continued from before) Then, the `x_lists[i] != x_lists[n - i - 1]` will become `x_lists[0] != x_lists[n-1]`. `x_lists[0]` will access the first value of the string (or list) and `x_lists[n-1]` will access the last value of the list.
  - If the if rule is true, that means the first and last value not have the same value (not polindrome). If the of rule is false, then the program will break from the if rule and will return true.
