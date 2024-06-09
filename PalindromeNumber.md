@@ -7,7 +7,7 @@ This Python class `Solution`  implements the `Palindrome` algorithm, which is us
 The `Palindrome` method takes one parameter:
 - `x`: an integer representing the input from the user.
 
-It returns a boolean. If the input is considered to be polindrome, it will return True. Do the same for the opposite.
+It returns a boolean. If the input is considered to be polindrome, it will return True. Return False for the opposite.
 
 ```python
 class Solution(object):
